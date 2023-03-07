@@ -25,10 +25,10 @@ class BertTextEncoder(nn.Module):
         # pretrained_weights = '/home/sharing/disk3/pretrained_embedding/Chinese/bert/pytorch'
         if language == 'en':
             self.tokenizer = tokenizer_class.from_pretrained('pretrained_model/bert_en', do_lower_case=True)
-            self.model = model_class.from_pretrained('pretrained_model/bert_en')
+            self.model = model_class.from_pretrained('pretrained_model/bert_en', ignore_mismatched_sizes=True)
         elif language == 'cn':
             self.tokenizer = tokenizer_class.from_pretrained('pretrained_model/bert_cn')
-            self.model = model_class.from_pretrained('pretrained_model/bert_cn')
+            self.model = model_class.from_pretrained('pretrained_model/bert_cn', ignore_mismatched_sizes=True)
         
         self.use_finetune = use_finetune
     

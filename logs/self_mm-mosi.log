@@ -1,0 +1,306 @@
+2023-03-07 10:25:08:INFO:Start running self_mm...
+2023-03-07 10:25:08:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': '/home/sharing/disk3/dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1111}>
+2023-03-07 10:25:08:INFO:Let's use 1 GPUs!
+2023-03-07 10:28:32:INFO:Start running self_mm...
+2023-03-07 10:28:32:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': '/home/sharing/disk3/dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1111}>
+2023-03-07 10:28:32:INFO:Let's use 1 GPUs!
+2023-03-07 10:30:18:INFO:Start running self_mm...
+2023-03-07 10:30:18:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': '/home/sharing/disk3/dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1111}>
+2023-03-07 10:30:18:INFO:Let's use 1 GPUs!
+2023-03-07 10:32:13:INFO:Start running self_mm...
+2023-03-07 10:32:13:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': '/dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1111}>
+2023-03-07 10:32:13:INFO:Let's use 1 GPUs!
+2023-03-07 10:33:13:INFO:Start running self_mm...
+2023-03-07 10:33:13:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': '/dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1111}>
+2023-03-07 10:33:13:INFO:Let's use 1 GPUs!
+2023-03-07 10:42:45:INFO:Start running self_mm...
+2023-03-07 10:42:45:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': '/dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1111}>
+2023-03-07 10:42:45:INFO:Let's use 1 GPUs!
+2023-03-07 10:43:25:INFO:Start running self_mm...
+2023-03-07 10:43:25:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': '/dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1111}>
+2023-03-07 10:43:25:INFO:Let's use 1 GPUs!
+2023-03-07 10:43:51:INFO:Start running self_mm...
+2023-03-07 10:43:51:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': 'dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1111}>
+2023-03-07 10:43:51:INFO:Let's use 1 GPUs!
+2023-03-07 10:43:53:INFO:train samples: (1368,)
+2023-03-07 10:43:55:INFO:valid samples: (456,)
+2023-03-07 10:43:56:INFO:test samples: (457,)
+2023-03-07 10:44:48:INFO:Start running self_mm...
+2023-03-07 10:44:48:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': 'dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1111}>
+2023-03-07 10:44:48:INFO:Let's use 1 GPUs!
+2023-03-07 10:44:50:INFO:train samples: (1368,)
+2023-03-07 10:44:51:INFO:valid samples: (456,)
+2023-03-07 10:44:53:INFO:test samples: (457,)
+2023-03-07 10:49:06:INFO:Start running self_mm...
+2023-03-07 10:49:06:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': 'dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1111}>
+2023-03-07 10:49:06:INFO:Let's use 1 GPUs!
+2023-03-07 10:49:08:INFO:train samples: (1368,)
+2023-03-07 10:49:10:INFO:valid samples: (456,)
+2023-03-07 10:49:11:INFO:test samples: (457,)
+2023-03-07 10:56:11:INFO:Start running self_mm...
+2023-03-07 10:56:11:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': 'dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1111}>
+2023-03-07 10:56:11:INFO:Let's use 1 GPUs!
+2023-03-07 10:56:13:INFO:train samples: (1368,)
+2023-03-07 10:56:14:INFO:valid samples: (456,)
+2023-03-07 10:56:16:INFO:test samples: (457,)
+2023-03-07 10:56:17:INFO:The model has 102649028 trainable parameters
+2023-03-07 10:56:17:INFO:Init labels...
+2023-03-07 10:56:18:INFO:Start training...
+2023-03-07 11:01:41:INFO:TRAIN-(self_mm) (1/1/1)>> loss: 0.5998 
+2023-03-07 11:01:41:INFO:M: >>  Mult_acc_2: 0.6813  Mult_acc_3: 0.4942  Mult_acc_5: 0.2047  F1_score: 0.5835  MAE: 0.5996  Corr: 0.0044 
+2023-03-07 11:01:41:INFO:T: >>  Mult_acc_2: 0.3063  Mult_acc_3: 0.1769  Mult_acc_5: 0.1433  F1_score: 0.1436  MAE: 0.6387  Corr: -0.0098 
+2023-03-07 11:01:41:INFO:A: >>  Mult_acc_2: 0.3063  Mult_acc_3: 0.3063  Mult_acc_5: 0.1520  F1_score: 0.1436  MAE: 0.6735  Corr: -0.0183 
+2023-03-07 11:01:41:INFO:V: >>  Mult_acc_2: 0.3063  Mult_acc_3: 0.3063  Mult_acc_5: 0.1520  F1_score: 0.1436  MAE: 0.6735  Corr: -0.0133 
+2023-03-07 11:02:15:INFO:VAL-(self_mm) >> loss: 0.5930 
+2023-03-07 11:02:15:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.5439  Mult_acc_5: 0.2127  F1_score: 0.5702  MAE: 0.5891  Corr: 0.2057 
+2023-03-07 11:08:28:INFO:TRAIN-(self_mm) (1/2/1)>> loss: 0.5900 
+2023-03-07 11:08:28:INFO:M: >>  Mult_acc_2: 0.6937  Mult_acc_3: 0.5409  Mult_acc_5: 0.2142  F1_score: 0.5683  MAE: 0.5905  Corr: 0.0307 
+2023-03-07 11:08:28:INFO:T: >>  Mult_acc_2: 0.3063  Mult_acc_3: 0.1513  Mult_acc_5: 0.1513  F1_score: 0.1436  MAE: 0.6262  Corr: -0.0352 
+2023-03-07 11:08:28:INFO:A: >>  Mult_acc_2: 0.3063  Mult_acc_3: 0.3063  Mult_acc_5: 0.1520  F1_score: 0.1436  MAE: 0.6666  Corr: -0.0006 
+2023-03-07 11:08:28:INFO:V: >>  Mult_acc_2: 0.3063  Mult_acc_3: 0.3063  Mult_acc_5: 0.1520  F1_score: 0.1436  MAE: 0.6682  Corr: -0.0037 
+2023-03-07 11:09:05:INFO:VAL-(self_mm) >> loss: 0.5944 
+2023-03-07 11:09:05:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.5439  Mult_acc_5: 0.2127  F1_score: 0.5702  MAE: 0.5940  Corr: 0.2341 
+2023-03-07 11:14:59:INFO:TRAIN-(self_mm) (2/3/1)>> loss: 0.8710 
+2023-03-07 11:14:59:INFO:M: >>  Mult_acc_2: 0.6615  Mult_acc_3: 0.4386  Mult_acc_5: 0.2010  F1_score: 0.6281  MAE: 0.5726  Corr: 0.1684 
+2023-03-07 11:14:59:INFO:T: >>  Mult_acc_2: 0.4620  Mult_acc_3: 0.3070  Mult_acc_5: 0.3070  F1_score: 0.4637  MAE: 0.3804  Corr: -0.0766 
+2023-03-07 11:14:59:INFO:A: >>  Mult_acc_2: 0.3867  Mult_acc_3: 0.2975  Mult_acc_5: 0.2061  F1_score: 0.2157  MAE: 0.4832  Corr: -0.0370 
+2023-03-07 11:14:59:INFO:V: >>  Mult_acc_2: 0.3684  Mult_acc_3: 0.2807  Mult_acc_5: 0.2003  F1_score: 0.1984  MAE: 0.4218  Corr: -0.0287 
+2023-03-07 11:15:40:INFO:VAL-(self_mm) >> loss: 0.5871 
+2023-03-07 11:15:40:INFO:M: >>  Mult_acc_2: 0.4759  Mult_acc_3: 0.2566  Mult_acc_5: 0.1623  F1_score: 0.4745  MAE: 0.5821  Corr: 0.2067 
+2023-03-07 11:21:34:INFO:TRAIN-(self_mm) (1/4/1)>> loss: 0.8240 
+2023-03-07 11:21:34:INFO:M: >>  Mult_acc_2: 0.6404  Mult_acc_3: 0.3297  Mult_acc_5: 0.2215  F1_score: 0.6143  MAE: 0.5481  Corr: 0.2696 
+2023-03-07 11:21:34:INFO:T: >>  Mult_acc_2: 0.5994  Mult_acc_3: 0.3428  Mult_acc_5: 0.3326  F1_score: 0.5433  MAE: 0.2860  Corr: -0.0203 
+2023-03-07 11:21:34:INFO:A: >>  Mult_acc_2: 0.3436  Mult_acc_3: 0.2727  Mult_acc_5: 0.2566  F1_score: 0.1757  MAE: 0.3996  Corr: 0.0146 
+2023-03-07 11:21:34:INFO:V: >>  Mult_acc_2: 0.3677  Mult_acc_3: 0.3202  Mult_acc_5: 0.3173  F1_score: 0.3194  MAE: 0.3340  Corr: 0.0171 
+2023-03-07 11:22:12:INFO:VAL-(self_mm) >> loss: 0.5773 
+2023-03-07 11:22:12:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.2719  Mult_acc_5: 0.1776  F1_score: 0.5702  MAE: 0.5788  Corr: 0.1726 
+2023-03-07 11:28:21:INFO:TRAIN-(self_mm) (1/5/1)>> loss: 0.8115 
+2023-03-07 11:28:21:INFO:M: >>  Mult_acc_2: 0.6674  Mult_acc_3: 0.4203  Mult_acc_5: 0.2449  F1_score: 0.6150  MAE: 0.5346  Corr: 0.3160 
+2023-03-07 11:28:21:INFO:T: >>  Mult_acc_2: 0.7449  Mult_acc_3: 0.4532  Mult_acc_5: 0.4174  F1_score: 0.6360  MAE: 0.2427  Corr: 0.1679 
+2023-03-07 11:28:21:INFO:A: >>  Mult_acc_2: 0.5146  Mult_acc_3: 0.2039  Mult_acc_5: 0.1966  F1_score: 0.5362  MAE: 0.3477  Corr: -0.0246 
+2023-03-07 11:28:21:INFO:V: >>  Mult_acc_2: 0.7325  Mult_acc_3: 0.4364  Mult_acc_5: 0.3860  F1_score: 0.6238  MAE: 0.2807  Corr: -0.0326 
+2023-03-07 11:28:59:INFO:VAL-(self_mm) >> loss: 0.5816 
+2023-03-07 11:28:59:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.3509  Mult_acc_5: 0.2368  F1_score: 0.5702  MAE: 0.5662  Corr: 0.2255 
+2023-03-07 11:34:25:INFO:TRAIN-(self_mm) (2/6/1)>> loss: 0.7705 
+2023-03-07 11:34:25:INFO:M: >>  Mult_acc_2: 0.6630  Mult_acc_3: 0.4744  Mult_acc_5: 0.3070  F1_score: 0.6590  MAE: 0.4945  Corr: 0.4232 
+2023-03-07 11:34:25:INFO:T: >>  Mult_acc_2: 0.7566  Mult_acc_3: 0.4920  Mult_acc_5: 0.4635  F1_score: 0.6524  MAE: 0.2455  Corr: 0.2298 
+2023-03-07 11:34:25:INFO:A: >>  Mult_acc_2: 0.7361  Mult_acc_3: 0.6404  Mult_acc_5: 0.5687  F1_score: 0.6242  MAE: 0.2947  Corr: 0.0047 
+2023-03-07 11:34:25:INFO:V: >>  Mult_acc_2: 0.7712  Mult_acc_3: 0.6294  Mult_acc_5: 0.5577  F1_score: 0.6767  MAE: 0.2758  Corr: 0.0074 
+2023-03-07 11:34:58:INFO:VAL-(self_mm) >> loss: 0.5768 
+2023-03-07 11:34:58:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.4605  Mult_acc_5: 0.2939  F1_score: 0.5702  MAE: 0.5775  Corr: 0.2408 
+2023-03-07 11:39:41:INFO:TRAIN-(self_mm) (1/7/1)>> loss: 0.7573 
+2023-03-07 11:39:41:INFO:M: >>  Mult_acc_2: 0.6586  Mult_acc_3: 0.4649  Mult_acc_5: 0.3319  F1_score: 0.6640  MAE: 0.4828  Corr: 0.4506 
+2023-03-07 11:39:41:INFO:T: >>  Mult_acc_2: 0.6126  Mult_acc_3: 0.4510  Mult_acc_5: 0.4320  F1_score: 0.6315  MAE: 0.2771  Corr: 0.2748 
+2023-03-07 11:39:41:INFO:A: >>  Mult_acc_2: 0.7317  Mult_acc_3: 0.6367  Mult_acc_5: 0.5950  F1_score: 0.6184  MAE: 0.2784  Corr: -0.0039 
+2023-03-07 11:39:41:INFO:V: >>  Mult_acc_2: 0.7507  Mult_acc_3: 0.6082  Mult_acc_5: 0.5636  F1_score: 0.6554  MAE: 0.2741  Corr: -0.0162 
+2023-03-07 11:40:09:INFO:VAL-(self_mm) >> loss: 0.5627 
+2023-03-07 11:40:09:INFO:M: >>  Mult_acc_2: 0.5636  Mult_acc_3: 0.3443  Mult_acc_5: 0.2215  F1_score: 0.5791  MAE: 0.5653  Corr: 0.2286 
+2023-03-07 11:44:34:INFO:TRAIN-(self_mm) (1/8/1)>> loss: 0.7261 
+2023-03-07 11:44:34:INFO:M: >>  Mult_acc_2: 0.6506  Mult_acc_3: 0.4898  Mult_acc_5: 0.3553  F1_score: 0.6638  MAE: 0.4641  Corr: 0.4934 
+2023-03-07 11:44:34:INFO:T: >>  Mult_acc_2: 0.5833  Mult_acc_3: 0.4737  Mult_acc_5: 0.4488  F1_score: 0.6123  MAE: 0.2871  Corr: 0.2683 
+2023-03-07 11:44:34:INFO:A: >>  Mult_acc_2: 0.7661  Mult_acc_3: 0.6908  Mult_acc_5: 0.6345  F1_score: 0.6646  MAE: 0.2575  Corr: 0.0264 
+2023-03-07 11:44:34:INFO:V: >>  Mult_acc_2: 0.8034  Mult_acc_3: 0.7149  Mult_acc_5: 0.6564  F1_score: 0.7198  MAE: 0.2522  Corr: -0.0017 
+2023-03-07 11:45:01:INFO:VAL-(self_mm) >> loss: 0.5990 
+2023-03-07 11:45:01:INFO:M: >>  Mult_acc_2: 0.5548  Mult_acc_3: 0.3882  Mult_acc_5: 0.2851  F1_score: 0.5725  MAE: 0.6020  Corr: 0.1899 
+2023-03-07 11:49:35:INFO:TRAIN-(self_mm) (2/9/1)>> loss: 0.7181 
+2023-03-07 11:49:35:INFO:M: >>  Mult_acc_2: 0.6535  Mult_acc_3: 0.4452  Mult_acc_5: 0.3370  F1_score: 0.6372  MAE: 0.4616  Corr: 0.5039 
+2023-03-07 11:49:35:INFO:T: >>  Mult_acc_2: 0.7566  Mult_acc_3: 0.4137  Mult_acc_5: 0.3808  F1_score: 0.6896  MAE: 0.2844  Corr: 0.2752 
+2023-03-07 11:49:35:INFO:A: >>  Mult_acc_2: 0.8158  Mult_acc_3: 0.7449  Mult_acc_5: 0.6681  F1_score: 0.7330  MAE: 0.2415  Corr: 0.0104 
+2023-03-07 11:49:35:INFO:V: >>  Mult_acc_2: 0.8567  Mult_acc_3: 0.7741  Mult_acc_5: 0.7018  F1_score: 0.7906  MAE: 0.2370  Corr: -0.0006 
+2023-03-07 11:50:03:INFO:VAL-(self_mm) >> loss: 0.5685 
+2023-03-07 11:50:03:INFO:M: >>  Mult_acc_2: 0.5175  Mult_acc_3: 0.3662  Mult_acc_5: 0.2522  F1_score: 0.5340  MAE: 0.5734  Corr: 0.2047 
+2023-03-07 11:54:35:INFO:TRAIN-(self_mm) (3/10/1)>> loss: 0.7037 
+2023-03-07 11:54:35:INFO:M: >>  Mult_acc_2: 0.6806  Mult_acc_3: 0.4561  Mult_acc_5: 0.3553  F1_score: 0.6927  MAE: 0.4445  Corr: 0.5412 
+2023-03-07 11:54:35:INFO:T: >>  Mult_acc_2: 0.8107  Mult_acc_3: 0.6352  Mult_acc_5: 0.5629  F1_score: 0.7259  MAE: 0.2744  Corr: 0.2110 
+2023-03-07 11:54:35:INFO:A: >>  Mult_acc_2: 0.8962  Mult_acc_3: 0.8151  Mult_acc_5: 0.7215  F1_score: 0.8471  MAE: 0.2266  Corr: -0.0118 
+2023-03-07 11:54:35:INFO:V: >>  Mult_acc_2: 0.9050  Mult_acc_3: 0.8428  Mult_acc_5: 0.7544  F1_score: 0.8598  MAE: 0.2249  Corr: 0.0079 
+2023-03-07 11:55:04:INFO:VAL-(self_mm) >> loss: 0.5726 
+2023-03-07 11:55:04:INFO:M: >>  Mult_acc_2: 0.6930  Mult_acc_3: 0.4035  Mult_acc_5: 0.2566  F1_score: 0.5806  MAE: 0.5672  Corr: 0.2326 
+2023-03-07 11:59:43:INFO:TRAIN-(self_mm) (4/11/1)>> loss: 0.6826 
+2023-03-07 11:59:43:INFO:M: >>  Mult_acc_2: 0.6908  Mult_acc_3: 0.5621  Mult_acc_5: 0.3911  F1_score: 0.7019  MAE: 0.4180  Corr: 0.5970 
+2023-03-07 11:59:43:INFO:T: >>  Mult_acc_2: 0.8385  Mult_acc_3: 0.7858  Mult_acc_5: 0.6711  F1_score: 0.7648  MAE: 0.2546  Corr: 0.2024 
+2023-03-07 11:59:43:INFO:A: >>  Mult_acc_2: 0.9232  Mult_acc_3: 0.8721  Mult_acc_5: 0.7566  F1_score: 0.8864  MAE: 0.2157  Corr: -0.0187 
+2023-03-07 11:59:43:INFO:V: >>  Mult_acc_2: 0.9225  Mult_acc_3: 0.8655  Mult_acc_5: 0.7500  F1_score: 0.8853  MAE: 0.2241  Corr: 0.0443 
+2023-03-07 12:00:10:INFO:VAL-(self_mm) >> loss: 0.6007 
+2023-03-07 12:00:10:INFO:M: >>  Mult_acc_2: 0.5592  Mult_acc_3: 0.4627  Mult_acc_5: 0.2171  F1_score: 0.5766  MAE: 0.5822  Corr: 0.2518 
+2023-03-07 12:06:57:INFO:TRAIN-(self_mm) (5/12/1)>> loss: 0.6667 
+2023-03-07 12:06:57:INFO:M: >>  Mult_acc_2: 0.6974  Mult_acc_3: 0.6045  Mult_acc_5: 0.4232  F1_score: 0.7088  MAE: 0.4001  Corr: 0.6272 
+2023-03-07 12:06:57:INFO:T: >>  Mult_acc_2: 0.8955  Mult_acc_3: 0.8275  Mult_acc_5: 0.7091  F1_score: 0.8461  MAE: 0.2328  Corr: 0.1200 
+2023-03-07 12:06:57:INFO:A: >>  Mult_acc_2: 0.9379  Mult_acc_3: 0.9042  Mult_acc_5: 0.7690  F1_score: 0.9078  MAE: 0.2102  Corr: -0.0191 
+2023-03-07 12:06:57:INFO:V: >>  Mult_acc_2: 0.9342  Mult_acc_3: 0.8991  Mult_acc_5: 0.7478  F1_score: 0.9024  MAE: 0.2162  Corr: 0.0360 
+2023-03-07 12:07:26:INFO:VAL-(self_mm) >> loss: 0.6103 
+2023-03-07 12:07:26:INFO:M: >>  Mult_acc_2: 0.5482  Mult_acc_3: 0.4846  Mult_acc_5: 0.2303  F1_score: 0.5661  MAE: 0.5995  Corr: 0.2611 
+2023-03-07 12:13:09:INFO:TRAIN-(self_mm) (6/13/1)>> loss: 0.6567 
+2023-03-07 12:13:09:INFO:M: >>  Mult_acc_2: 0.7200  Mult_acc_3: 0.6542  Mult_acc_5: 0.4357  F1_score: 0.7309  MAE: 0.3797  Corr: 0.6700 
+2023-03-07 12:13:09:INFO:T: >>  Mult_acc_2: 0.9386  Mult_acc_3: 0.8874  Mult_acc_5: 0.7800  F1_score: 0.9089  MAE: 0.2116  Corr: -0.0167 
+2023-03-07 12:13:09:INFO:A: >>  Mult_acc_2: 0.9503  Mult_acc_3: 0.9159  Mult_acc_5: 0.7405  F1_score: 0.9261  MAE: 0.2042  Corr: 0.0607 
+2023-03-07 12:13:09:INFO:V: >>  Mult_acc_2: 0.9357  Mult_acc_3: 0.8940  Mult_acc_5: 0.7105  F1_score: 0.9046  MAE: 0.2242  Corr: 0.0269 
+2023-03-07 12:14:16:INFO:VAL-(self_mm) >> loss: 0.5696 
+2023-03-07 12:14:16:INFO:M: >>  Mult_acc_2: 0.5811  Mult_acc_3: 0.4934  Mult_acc_5: 0.2346  F1_score: 0.5977  MAE: 0.5619  Corr: 0.2974 
+2023-03-07 12:23:09:INFO:TRAIN-(self_mm) (7/14/1)>> loss: 0.6605 
+2023-03-07 12:23:09:INFO:M: >>  Mult_acc_2: 0.7390  Mult_acc_3: 0.6550  Mult_acc_5: 0.4444  F1_score: 0.7487  MAE: 0.3730  Corr: 0.6822 
+2023-03-07 12:23:09:INFO:T: >>  Mult_acc_2: 0.9459  Mult_acc_3: 0.9115  Mult_acc_5: 0.7975  F1_score: 0.9196  MAE: 0.1863  Corr: 0.1148 
+2023-03-07 12:23:09:INFO:A: >>  Mult_acc_2: 0.9539  Mult_acc_3: 0.9269  Mult_acc_5: 0.7310  F1_score: 0.9315  MAE: 0.2053  Corr: -0.0135 
+2023-03-07 12:23:09:INFO:V: >>  Mult_acc_2: 0.9240  Mult_acc_3: 0.8626  Mult_acc_5: 0.6974  F1_score: 0.8875  MAE: 0.2317  Corr: -0.0036 
+2023-03-07 12:23:40:INFO:VAL-(self_mm) >> loss: 0.5755 
+2023-03-07 12:23:40:INFO:M: >>  Mult_acc_2: 0.6360  Mult_acc_3: 0.5110  Mult_acc_5: 0.2939  F1_score: 0.6352  MAE: 0.5648  Corr: 0.3014 
+2023-03-07 12:28:20:INFO:TRAIN-(self_mm) (8/15/1)>> loss: 0.6928 
+2023-03-07 12:28:20:INFO:M: >>  Mult_acc_2: 0.7281  Mult_acc_3: 0.6301  Mult_acc_5: 0.4313  F1_score: 0.7379  MAE: 0.3904  Corr: 0.6566 
+2023-03-07 12:28:20:INFO:T: >>  Mult_acc_2: 0.9459  Mult_acc_3: 0.9028  Mult_acc_5: 0.7683  F1_score: 0.9196  MAE: 0.1912  Corr: 0.3474 
+2023-03-07 12:28:20:INFO:A: >>  Mult_acc_2: 0.9642  Mult_acc_3: 0.9357  Mult_acc_5: 0.7310  F1_score: 0.9466  MAE: 0.2054  Corr: 0.0441 
+2023-03-07 12:28:20:INFO:V: >>  Mult_acc_2: 0.9247  Mult_acc_3: 0.8618  Mult_acc_5: 0.6798  F1_score: 0.8885  MAE: 0.2328  Corr: 0.0289 
+2023-03-07 12:28:53:INFO:VAL-(self_mm) >> loss: 0.5925 
+2023-03-07 12:28:53:INFO:M: >>  Mult_acc_2: 0.5066  Mult_acc_3: 0.4320  Mult_acc_5: 0.2193  F1_score: 0.5163  MAE: 0.5967  Corr: 0.2649 
+2023-03-07 12:29:28:INFO:TEST-(self_mm) >> loss: 0.5417 
+2023-03-07 12:29:28:INFO:M: >>  Mult_acc_2: 0.5580  Mult_acc_3: 0.3611  Mult_acc_5: 0.2385  F1_score: 0.5732  MAE: 0.5495  Corr: 0.2730 
+2023-03-07 12:29:28:INFO:Start running self_mm...
+2023-03-07 12:29:28:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': 'dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1112}>
+2023-03-07 12:29:28:INFO:Let's use 1 GPUs!
+2023-03-07 12:29:30:INFO:train samples: (1368,)
+2023-03-07 12:29:31:INFO:valid samples: (456,)
+2023-03-07 12:29:32:INFO:test samples: (457,)
+2023-03-07 12:29:33:INFO:The model has 102649028 trainable parameters
+2023-03-07 12:29:33:INFO:Init labels...
+2023-03-07 12:29:34:INFO:Start training...
+2023-03-07 12:35:04:INFO:TRAIN-(self_mm) (1/1/2)>> loss: 0.5954 
+2023-03-07 12:35:04:INFO:M: >>  Mult_acc_2: 0.6594  Mult_acc_3: 0.4912  Mult_acc_5: 0.2083  F1_score: 0.5824  MAE: 0.5957  Corr: -0.0096 
+2023-03-07 12:35:04:INFO:T: >>  Mult_acc_2: 0.3056  Mult_acc_3: 0.2946  Mult_acc_5: 0.1520  F1_score: 0.1434  MAE: 0.6633  Corr: 0.0293 
+2023-03-07 12:35:04:INFO:A: >>  Mult_acc_2: 0.6937  Mult_acc_3: 0.1513  Mult_acc_5: 0.1513  F1_score: 0.5683  MAE: 0.6011  Corr: 0.0420 
+2023-03-07 12:35:04:INFO:V: >>  Mult_acc_2: 0.6937  Mult_acc_3: 0.1806  Mult_acc_5: 0.1564  F1_score: 0.5683  MAE: 0.5992  Corr: -0.0099 
+2023-03-07 12:35:43:INFO:VAL-(self_mm) >> loss: 0.5823 
+2023-03-07 12:35:43:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.5439  Mult_acc_5: 0.2127  F1_score: 0.5702  MAE: 0.5858  Corr: 0.2124 
+2023-03-07 12:45:58:INFO:TRAIN-(self_mm) (1/2/2)>> loss: 0.5754 
+2023-03-07 12:45:58:INFO:M: >>  Mult_acc_2: 0.6645  Mult_acc_3: 0.4693  Mult_acc_5: 0.2266  F1_score: 0.5999  MAE: 0.5755  Corr: 0.1599 
+2023-03-07 12:45:58:INFO:T: >>  Mult_acc_2: 0.3063  Mult_acc_3: 0.2010  Mult_acc_5: 0.1462  F1_score: 0.1436  MAE: 0.6420  Corr: 0.0544 
+2023-03-07 12:45:58:INFO:A: >>  Mult_acc_2: 0.6937  Mult_acc_3: 0.1513  Mult_acc_5: 0.1513  F1_score: 0.5683  MAE: 0.6026  Corr: -0.0063 
+2023-03-07 12:45:58:INFO:V: >>  Mult_acc_2: 0.6937  Mult_acc_3: 0.1513  Mult_acc_5: 0.1513  F1_score: 0.5683  MAE: 0.6021  Corr: -0.0258 
+2023-03-07 12:47:14:INFO:VAL-(self_mm) >> loss: 0.5851 
+2023-03-07 12:47:14:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.3662  Mult_acc_5: 0.1930  F1_score: 0.5702  MAE: 0.5767  Corr: 0.1692 
+2023-03-07 12:55:56:INFO:TRAIN-(self_mm) (2/3/2)>> loss: 0.8333 
+2023-03-07 12:55:56:INFO:M: >>  Mult_acc_2: 0.6455  Mult_acc_3: 0.4174  Mult_acc_5: 0.2178  F1_score: 0.6205  MAE: 0.5563  Corr: 0.2395 
+2023-03-07 12:55:56:INFO:T: >>  Mult_acc_2: 0.5110  Mult_acc_3: 0.2727  Mult_acc_5: 0.2690  F1_score: 0.5227  MAE: 0.3836  Corr: -0.0365 
+2023-03-07 12:55:56:INFO:A: >>  Mult_acc_2: 0.6287  Mult_acc_3: 0.2632  Mult_acc_5: 0.2632  F1_score: 0.4853  MAE: 0.4103  Corr: -0.0355 
+2023-03-07 12:55:56:INFO:V: >>  Mult_acc_2: 0.6608  Mult_acc_3: 0.3056  Mult_acc_5: 0.3056  F1_score: 0.5259  MAE: 0.3692  Corr: 0.0080 
+2023-03-07 12:56:43:INFO:VAL-(self_mm) >> loss: 0.6464 
+2023-03-07 12:56:43:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.4145  Mult_acc_5: 0.2961  F1_score: 0.5702  MAE: 0.6170  Corr: 0.1589 
+2023-03-07 13:03:51:INFO:TRAIN-(self_mm) (3/4/2)>> loss: 0.8119 
+2023-03-07 13:03:51:INFO:M: >>  Mult_acc_2: 0.6842  Mult_acc_3: 0.4613  Mult_acc_5: 0.2537  F1_score: 0.6438  MAE: 0.5551  Corr: 0.2349 
+2023-03-07 13:03:51:INFO:T: >>  Mult_acc_2: 0.5709  Mult_acc_3: 0.3692  Mult_acc_5: 0.3275  F1_score: 0.5627  MAE: 0.3219  Corr: 0.1194 
+2023-03-07 13:03:51:INFO:A: >>  Mult_acc_2: 0.6835  Mult_acc_3: 0.2127  Mult_acc_5: 0.2127  F1_score: 0.5550  MAE: 0.3326  Corr: 0.0296 
+2023-03-07 13:03:51:INFO:V: >>  Mult_acc_2: 0.7427  Mult_acc_3: 0.3808  Mult_acc_5: 0.3209  F1_score: 0.6330  MAE: 0.2933  Corr: 0.0309 
+2023-03-07 13:04:31:INFO:VAL-(self_mm) >> loss: 0.5580 
+2023-03-07 13:04:31:INFO:M: >>  Mult_acc_2: 0.6513  Mult_acc_3: 0.4254  Mult_acc_5: 0.1996  F1_score: 0.6222  MAE: 0.5645  Corr: 0.2170 
+2023-03-07 13:11:02:INFO:TRAIN-(self_mm) (1/5/2)>> loss: 0.8036 
+2023-03-07 13:11:02:INFO:M: >>  Mult_acc_2: 0.6725  Mult_acc_3: 0.5314  Mult_acc_5: 0.2544  F1_score: 0.6585  MAE: 0.5345  Corr: 0.3347 
+2023-03-07 13:11:02:INFO:T: >>  Mult_acc_2: 0.5848  Mult_acc_3: 0.4401  Mult_acc_5: 0.4211  F1_score: 0.5872  MAE: 0.3028  Corr: 0.1042 
+2023-03-07 13:11:02:INFO:A: >>  Mult_acc_2: 0.6520  Mult_acc_3: 0.4554  Mult_acc_5: 0.4232  F1_score: 0.5147  MAE: 0.2921  Corr: 0.0363 
+2023-03-07 13:11:02:INFO:V: >>  Mult_acc_2: 0.6813  Mult_acc_3: 0.5855  Mult_acc_5: 0.5504  F1_score: 0.5521  MAE: 0.2676  Corr: -0.0112 
+2023-03-07 13:11:37:INFO:VAL-(self_mm) >> loss: 0.6077 
+2023-03-07 13:11:37:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.5175  Mult_acc_5: 0.2961  F1_score: 0.5702  MAE: 0.5940  Corr: 0.2446 
+2023-03-07 13:17:05:INFO:TRAIN-(self_mm) (2/6/2)>> loss: 0.7838 
+2023-03-07 13:17:05:INFO:M: >>  Mult_acc_2: 0.6806  Mult_acc_3: 0.5146  Mult_acc_5: 0.3187  F1_score: 0.6749  MAE: 0.5141  Corr: 0.3916 
+2023-03-07 13:17:05:INFO:T: >>  Mult_acc_2: 0.5943  Mult_acc_3: 0.4379  Mult_acc_5: 0.4254  F1_score: 0.5880  MAE: 0.2669  Corr: 0.0984 
+2023-03-07 13:17:05:INFO:A: >>  Mult_acc_2: 0.6718  Mult_acc_3: 0.5709  Mult_acc_5: 0.5417  F1_score: 0.5399  MAE: 0.2762  Corr: 0.0152 
+2023-03-07 13:17:05:INFO:V: >>  Mult_acc_2: 0.6608  Mult_acc_3: 0.5015  Mult_acc_5: 0.4810  F1_score: 0.5259  MAE: 0.2546  Corr: 0.0052 
+2023-03-07 13:17:34:INFO:VAL-(self_mm) >> loss: 0.5644 
+2023-03-07 13:17:34:INFO:M: >>  Mult_acc_2: 0.6250  Mult_acc_3: 0.4364  Mult_acc_5: 0.2083  F1_score: 0.6342  MAE: 0.5589  Corr: 0.2820 
+2023-03-07 13:22:54:INFO:TRAIN-(self_mm) (3/7/2)>> loss: 0.7436 
+2023-03-07 13:22:54:INFO:M: >>  Mult_acc_2: 0.6806  Mult_acc_3: 0.5292  Mult_acc_5: 0.3187  F1_score: 0.6923  MAE: 0.4834  Corr: 0.4679 
+2023-03-07 13:22:54:INFO:T: >>  Mult_acc_2: 0.5643  Mult_acc_3: 0.4408  Mult_acc_5: 0.4357  F1_score: 0.5786  MAE: 0.2682  Corr: 0.0886 
+2023-03-07 13:22:54:INFO:A: >>  Mult_acc_2: 0.6893  Mult_acc_3: 0.6140  Mult_acc_5: 0.5811  F1_score: 0.5626  MAE: 0.2633  Corr: -0.0011 
+2023-03-07 13:22:54:INFO:V: >>  Mult_acc_2: 0.6930  Mult_acc_3: 0.5322  Mult_acc_5: 0.5124  F1_score: 0.5673  MAE: 0.2526  Corr: 0.0047 
+2023-03-07 13:23:28:INFO:VAL-(self_mm) >> loss: 0.5905 
+2023-03-07 13:23:28:INFO:M: >>  Mult_acc_2: 0.5482  Mult_acc_3: 0.3750  Mult_acc_5: 0.2368  F1_score: 0.5627  MAE: 0.5807  Corr: 0.2389 
+2023-03-07 13:29:04:INFO:TRAIN-(self_mm) (4/8/2)>> loss: 0.7141 
+2023-03-07 13:29:04:INFO:M: >>  Mult_acc_2: 0.7091  Mult_acc_3: 0.5526  Mult_acc_5: 0.3867  F1_score: 0.7158  MAE: 0.4598  Corr: 0.5039 
+2023-03-07 13:29:04:INFO:T: >>  Mult_acc_2: 0.6784  Mult_acc_3: 0.4781  Mult_acc_5: 0.4605  F1_score: 0.6418  MAE: 0.2578  Corr: 0.1295 
+2023-03-07 13:29:04:INFO:A: >>  Mult_acc_2: 0.7332  Mult_acc_3: 0.6557  Mult_acc_5: 0.6126  F1_score: 0.6203  MAE: 0.2507  Corr: 0.0263 
+2023-03-07 13:29:04:INFO:V: >>  Mult_acc_2: 0.7434  Mult_acc_3: 0.6652  Mult_acc_5: 0.6279  F1_score: 0.6340  MAE: 0.2407  Corr: 0.0311 
+2023-03-07 13:29:39:INFO:VAL-(self_mm) >> loss: 0.5926 
+2023-03-07 13:29:39:INFO:M: >>  Mult_acc_2: 0.5833  Mult_acc_3: 0.4781  Mult_acc_5: 0.2588  F1_score: 0.5995  MAE: 0.5802  Corr: 0.2817 
+2023-03-07 13:35:21:INFO:TRAIN-(self_mm) (5/9/2)>> loss: 0.7016 
+2023-03-07 13:35:21:INFO:M: >>  Mult_acc_2: 0.7156  Mult_acc_3: 0.5972  Mult_acc_5: 0.3757  F1_score: 0.7237  MAE: 0.4444  Corr: 0.5570 
+2023-03-07 13:35:21:INFO:T: >>  Mult_acc_2: 0.7734  Mult_acc_3: 0.6126  Mult_acc_5: 0.5811  F1_score: 0.6746  MAE: 0.2497  Corr: 0.0265 
+2023-03-07 13:35:21:INFO:A: >>  Mult_acc_2: 0.7865  Mult_acc_3: 0.7178  Mult_acc_5: 0.6747  F1_score: 0.6926  MAE: 0.2358  Corr: 0.0187 
+2023-03-07 13:35:21:INFO:V: >>  Mult_acc_2: 0.8326  Mult_acc_3: 0.7420  Mult_acc_5: 0.6937  F1_score: 0.7565  MAE: 0.2360  Corr: -0.0014 
+2023-03-07 13:36:04:INFO:VAL-(self_mm) >> loss: 0.5997 
+2023-03-07 13:36:04:INFO:M: >>  Mult_acc_2: 0.6162  Mult_acc_3: 0.4145  Mult_acc_5: 0.2500  F1_score: 0.6158  MAE: 0.5657  Corr: 0.2553 
+2023-03-07 14:20:29:INFO:TRAIN-(self_mm) (6/10/2)>> loss: 0.6779 
+2023-03-07 14:20:29:INFO:M: >>  Mult_acc_2: 0.7025  Mult_acc_3: 0.5782  Mult_acc_5: 0.3706  F1_score: 0.7133  MAE: 0.4268  Corr: 0.5914 
+2023-03-07 14:20:29:INFO:T: >>  Mult_acc_2: 0.8165  Mult_acc_3: 0.7339  Mult_acc_5: 0.6798  F1_score: 0.7340  MAE: 0.2313  Corr: -0.0284 
+2023-03-07 14:20:29:INFO:A: >>  Mult_acc_2: 0.8326  Mult_acc_3: 0.7442  Mult_acc_5: 0.6937  F1_score: 0.7565  MAE: 0.2238  Corr: 0.0425 
+2023-03-07 14:20:29:INFO:V: >>  Mult_acc_2: 0.8501  Mult_acc_3: 0.7763  Mult_acc_5: 0.7251  F1_score: 0.7813  MAE: 0.2215  Corr: 0.0310 
+2023-03-07 14:20:53:INFO:VAL-(self_mm) >> loss: 0.6076 
+2023-03-07 14:20:53:INFO:M: >>  Mult_acc_2: 0.5088  Mult_acc_3: 0.4232  Mult_acc_5: 0.2281  F1_score: 0.5112  MAE: 0.5970  Corr: 0.2630 
+2023-03-07 14:24:57:INFO:TRAIN-(self_mm) (7/11/2)>> loss: 0.6671 
+2023-03-07 14:24:57:INFO:M: >>  Mult_acc_2: 0.7142  Mult_acc_3: 0.6111  Mult_acc_5: 0.4225  F1_score: 0.7214  MAE: 0.3975  Corr: 0.6392 
+2023-03-07 14:24:57:INFO:T: >>  Mult_acc_2: 0.8662  Mult_acc_3: 0.7683  Mult_acc_5: 0.7018  F1_score: 0.8041  MAE: 0.2230  Corr: 0.0535 
+2023-03-07 14:24:57:INFO:A: >>  Mult_acc_2: 0.8787  Mult_acc_3: 0.7931  Mult_acc_5: 0.7251  F1_score: 0.8219  MAE: 0.2221  Corr: 0.0464 
+2023-03-07 14:24:57:INFO:V: >>  Mult_acc_2: 0.8355  Mult_acc_3: 0.7471  Mult_acc_5: 0.6879  F1_score: 0.7607  MAE: 0.2367  Corr: 0.0235 
+2023-03-07 14:25:25:INFO:VAL-(self_mm) >> loss: 0.6023 
+2023-03-07 14:25:25:INFO:M: >>  Mult_acc_2: 0.6140  Mult_acc_3: 0.5197  Mult_acc_5: 0.2961  F1_score: 0.6285  MAE: 0.5840  Corr: 0.3073 
+2023-03-07 14:33:59:INFO:TRAIN-(self_mm) (8/12/2)>> loss: 0.6629 
+2023-03-07 14:34:00:INFO:M: >>  Mult_acc_2: 0.7186  Mult_acc_3: 0.6272  Mult_acc_5: 0.4181  F1_score: 0.7281  MAE: 0.3804  Corr: 0.6692 
+2023-03-07 14:34:00:INFO:T: >>  Mult_acc_2: 0.8553  Mult_acc_3: 0.6645  Mult_acc_5: 0.6053  F1_score: 0.7885  MAE: 0.2176  Corr: 0.3076 
+2023-03-07 14:34:00:INFO:A: >>  Mult_acc_2: 0.8882  Mult_acc_3: 0.8099  Mult_acc_5: 0.7500  F1_score: 0.8355  MAE: 0.2146  Corr: -0.0152 
+2023-03-07 14:34:00:INFO:V: >>  Mult_acc_2: 0.8392  Mult_acc_3: 0.7376  Mult_acc_5: 0.6806  F1_score: 0.7658  MAE: 0.2310  Corr: 0.0256 
+2023-03-07 14:35:04:INFO:VAL-(self_mm) >> loss: 0.5858 
+2023-03-07 14:35:04:INFO:M: >>  Mult_acc_2: 0.6820  Mult_acc_3: 0.4101  Mult_acc_5: 0.2478  F1_score: 0.6401  MAE: 0.5711  Corr: 0.2551 
+2023-03-07 14:35:42:INFO:TEST-(self_mm) >> loss: 0.5557 
+2023-03-07 14:35:42:INFO:M: >>  Mult_acc_2: 0.6499  Mult_acc_3: 0.4617  Mult_acc_5: 0.2188  F1_score: 0.6246  MAE: 0.5598  Corr: 0.2403 
+2023-03-07 14:35:43:INFO:Start running self_mm...
+2023-03-07 14:35:43:INFO:<Storage{'is_tune': False, 'train_mode': 'regression', 'modelName': 'self_mm', 'datasetName': 'sims', 'num_workers': 0, 'model_save_dir': 'results/models', 'res_save_dir': 'results/results\\normals', 'gpu_ids': [1], 'seeds': [1111, 1112, 1113, 1114, 1115], 'dataPath': 'dataset/multimodal-sentiment-dataset/StandardDatasets\\SIMS/Processed/features/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 3, 'language': 'cn', 'KeyEval': 'Loss', 'need_data_aligned': False, 'need_model_aligned': False, 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'save_labels': False, 'early_stop': 8, 'update_epochs': 4, 'batch_size': 32, 'learning_rate_bert': 5e-05, 'learning_rate_audio': 0.005, 'learning_rate_video': 0.005, 'learning_rate_other': 0.001, 'weight_decay_bert': 0.001, 'weight_decay_audio': 0.01, 'weight_decay_video': 0.01, 'weight_decay_other': 0.001, 'a_lstm_hidden_size': 16, 'v_lstm_hidden_size': 64, 'a_lstm_layers': 1, 'v_lstm_layers': 1, 'text_out': 768, 'audio_out': 16, 'video_out': 32, 'a_lstm_dropout': 0.0, 'v_lstm_dropout': 0.0, 't_bert_dropout': 0.1, 'post_fusion_dim': 128, 'post_text_dim': 64, 'post_audio_dim': 16, 'post_video_dim': 32, 'post_fusion_dropout': 0.0, 'post_text_dropout': 0.1, 'post_audio_dropout': 0.1, 'post_video_dropout': 0.0, 'H': 1.0, 'seed': 1113}>
+2023-03-07 14:35:43:INFO:Let's use 1 GPUs!
+2023-03-07 14:35:45:INFO:train samples: (1368,)
+2023-03-07 14:35:45:INFO:valid samples: (456,)
+2023-03-07 14:35:46:INFO:test samples: (457,)
+2023-03-07 14:35:47:INFO:The model has 102649028 trainable parameters
+2023-03-07 14:35:47:INFO:Init labels...
+2023-03-07 14:35:48:INFO:Start training...
+2023-03-07 14:41:49:INFO:TRAIN-(self_mm) (1/1/3)>> loss: 0.5982 
+2023-03-07 14:41:49:INFO:M: >>  Mult_acc_2: 0.6528  Mult_acc_3: 0.4598  Mult_acc_5: 0.2047  F1_score: 0.5860  MAE: 0.5988  Corr: -0.0446 
+2023-03-07 14:41:49:INFO:T: >>  Mult_acc_2: 0.5358  Mult_acc_3: 0.1550  Mult_acc_5: 0.1506  F1_score: 0.5535  MAE: 0.6081  Corr: 0.0149 
+2023-03-07 14:41:49:INFO:A: >>  Mult_acc_2: 0.3063  Mult_acc_3: 0.3063  Mult_acc_5: 0.1520  F1_score: 0.1436  MAE: 0.6958  Corr: -0.0030 
+2023-03-07 14:41:49:INFO:V: >>  Mult_acc_2: 0.3063  Mult_acc_3: 0.3063  Mult_acc_5: 0.1520  F1_score: 0.1436  MAE: 0.6946  Corr: 0.0096 
+2023-03-07 14:48:59:INFO:TRAIN-(self_mm) (1/2/3)>> loss: 0.5869 
+2023-03-07 14:48:59:INFO:M: >>  Mult_acc_2: 0.6937  Mult_acc_3: 0.5241  Mult_acc_5: 0.2113  F1_score: 0.5683  MAE: 0.5868  Corr: 0.0858 
+2023-03-07 14:48:59:INFO:T: >>  Mult_acc_2: 0.5490  Mult_acc_3: 0.1513  Mult_acc_5: 0.1513  F1_score: 0.5578  MAE: 0.6061  Corr: 0.0107 
+2023-03-07 14:48:59:INFO:A: >>  Mult_acc_2: 0.3063  Mult_acc_3: 0.3063  Mult_acc_5: 0.1520  F1_score: 0.1436  MAE: 0.6907  Corr: -0.0293 
+2023-03-07 14:48:59:INFO:V: >>  Mult_acc_2: 0.3063  Mult_acc_3: 0.3063  Mult_acc_5: 0.1520  F1_score: 0.1436  MAE: 0.6791  Corr: -0.0333 
+2023-03-07 14:49:39:INFO:VAL-(self_mm) >> loss: 0.5757 
+2023-03-07 14:49:39:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.5329  Mult_acc_5: 0.2171  F1_score: 0.5702  MAE: 0.5786  Corr: 0.1981 
+2023-03-07 14:56:06:INFO:TRAIN-(self_mm) (1/3/3)>> loss: 0.8259 
+2023-03-07 14:56:06:INFO:M: >>  Mult_acc_2: 0.6740  Mult_acc_3: 0.4247  Mult_acc_5: 0.2295  F1_score: 0.6203  MAE: 0.5589  Corr: 0.2343 
+2023-03-07 14:56:06:INFO:T: >>  Mult_acc_2: 0.5760  Mult_acc_3: 0.4591  Mult_acc_5: 0.2822  F1_score: 0.4278  MAE: 0.4610  Corr: 0.0858 
+2023-03-07 14:56:06:INFO:A: >>  Mult_acc_2: 0.4218  Mult_acc_3: 0.2931  Mult_acc_5: 0.1901  F1_score: 0.2503  MAE: 0.5249  Corr: 0.0042 
+2023-03-07 14:56:06:INFO:V: >>  Mult_acc_2: 0.3319  Mult_acc_3: 0.2865  Mult_acc_5: 0.1287  F1_score: 0.1654  MAE: 0.6423  Corr: -0.0013 
+2023-03-07 14:56:44:INFO:VAL-(self_mm) >> loss: 0.5736 
+2023-03-07 14:56:44:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.2654  Mult_acc_5: 0.1798  F1_score: 0.5702  MAE: 0.5773  Corr: 0.1699 
+2023-03-07 15:02:37:INFO:TRAIN-(self_mm) (1/4/3)>> loss: 0.8427 
+2023-03-07 15:02:37:INFO:M: >>  Mult_acc_2: 0.6542  Mult_acc_3: 0.3765  Mult_acc_5: 0.2303  F1_score: 0.6407  MAE: 0.5624  Corr: 0.2230 
+2023-03-07 15:02:37:INFO:T: >>  Mult_acc_2: 0.6235  Mult_acc_3: 0.4254  Mult_acc_5: 0.3253  F1_score: 0.6066  MAE: 0.3684  Corr: 0.2052 
+2023-03-07 15:02:37:INFO:A: >>  Mult_acc_2: 0.3458  Mult_acc_3: 0.2456  Mult_acc_5: 0.2295  F1_score: 0.1777  MAE: 0.4159  Corr: 0.0265 
+2023-03-07 15:02:37:INFO:V: >>  Mult_acc_2: 0.5073  Mult_acc_3: 0.2390  Mult_acc_5: 0.2390  F1_score: 0.5147  MAE: 0.4308  Corr: 0.0175 
+2023-03-07 15:03:14:INFO:VAL-(self_mm) >> loss: 0.5718 
+2023-03-07 15:03:14:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.3246  Mult_acc_5: 0.1732  F1_score: 0.5702  MAE: 0.5644  Corr: 0.2389 
+2023-03-07 15:09:05:INFO:TRAIN-(self_mm) (1/5/3)>> loss: 0.8318 
+2023-03-07 15:09:05:INFO:M: >>  Mult_acc_2: 0.6725  Mult_acc_3: 0.3531  Mult_acc_5: 0.2259  F1_score: 0.6475  MAE: 0.5484  Corr: 0.2683 
+2023-03-07 15:09:05:INFO:T: >>  Mult_acc_2: 0.5212  Mult_acc_3: 0.3553  Mult_acc_5: 0.2939  F1_score: 0.5249  MAE: 0.3738  Corr: 0.2767 
+2023-03-07 15:09:05:INFO:A: >>  Mult_acc_2: 0.6235  Mult_acc_3: 0.3699  Mult_acc_5: 0.3282  F1_score: 0.5792  MAE: 0.3312  Corr: 0.0286 
+2023-03-07 15:09:05:INFO:V: >>  Mult_acc_2: 0.6988  Mult_acc_3: 0.4262  Mult_acc_5: 0.3355  F1_score: 0.5864  MAE: 0.3495  Corr: 0.0201 
+2023-03-07 15:09:42:INFO:VAL-(self_mm) >> loss: 0.5683 
+2023-03-07 15:09:42:INFO:M: >>  Mult_acc_2: 0.6952  Mult_acc_3: 0.4057  Mult_acc_5: 0.1864  F1_score: 0.5702  MAE: 0.5714  Corr: 0.2399 
+2023-03-07 15:15:29:INFO:TRAIN-(self_mm) (1/6/3)>> loss: 0.8090 
+2023-03-07 15:15:29:INFO:M: >>  Mult_acc_2: 0.6579  Mult_acc_3: 0.4474  Mult_acc_5: 0.2763  F1_score: 0.6259  MAE: 0.5283  Corr: 0.3340 
+2023-03-07 15:15:29:INFO:T: >>  Mult_acc_2: 0.6001  Mult_acc_3: 0.4554  Mult_acc_5: 0.3282  F1_score: 0.6088  MAE: 0.3673  Corr: 0.2785 
+2023-03-07 15:15:29:INFO:A: >>  Mult_acc_2: 0.7288  Mult_acc_3: 0.6469  Mult_acc_5: 0.5826  F1_score: 0.6145  MAE: 0.2986  Corr: -0.0319 
+2023-03-07 15:15:29:INFO:V: >>  Mult_acc_2: 0.6864  Mult_acc_3: 0.5168  Mult_acc_5: 0.4474  F1_score: 0.5718  MAE: 0.3204  Corr: 0.0116 
+2023-03-07 15:16:07:INFO:VAL-(self_mm) >> loss: 0.5741 
+2023-03-07 15:16:07:INFO:M: >>  Mult_acc_2: 0.4868  Mult_acc_3: 0.2741  Mult_acc_5: 0.2325  F1_score: 0.4910  MAE: 0.5785  Corr: 0.1827 
+2023-03-07 15:22:07:INFO:TRAIN-(self_mm) (2/7/3)>> loss: 0.7664 
+2023-03-07 15:22:07:INFO:M: >>  Mult_acc_2: 0.6491  Mult_acc_3: 0.4064  Mult_acc_5: 0.3180  F1_score: 0.6472  MAE: 0.4956  Corr: 0.4225 
+2023-03-07 15:22:07:INFO:T: >>  Mult_acc_2: 0.5592  Mult_acc_3: 0.5051  Mult_acc_5: 0.3662  F1_score: 0.5662  MAE: 0.3921  Corr: 0.3563 
+2023-03-07 15:22:07:INFO:A: >>  Mult_acc_2: 0.7383  Mult_acc_3: 0.6491  Mult_acc_5: 0.6001  F1_score: 0.6272  MAE: 0.2883  Corr: 0.0206 
+2023-03-07 15:22:07:INFO:V: >>  Mult_acc_2: 0.7105  Mult_acc_3: 0.6294  Mult_acc_5: 0.5563  F1_score: 0.6021  MAE: 0.2959  Corr: 0.0040 
+2023-03-07 15:22:44:INFO:VAL-(self_mm) >> loss: 0.5646 
+2023-03-07 15:22:44:INFO:M: >>  Mult_acc_2: 0.6184  Mult_acc_3: 0.3487  Mult_acc_5: 0.2610  F1_score: 0.6206  MAE: 0.5700  Corr: 0.2273 

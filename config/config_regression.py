@@ -27,7 +27,7 @@ class ConfigRegression():
                             ))
     
     def __datasetCommonParams(self):
-        root_dataset_dir = '/home/sharing/disk3/dataset/multimodal-sentiment-dataset/StandardDatasets'
+        root_dataset_dir = 'dataset/multimodal-sentiment-dataset/StandardDatasets'
         tmp = {
             'mosi':{
                 'aligned': {

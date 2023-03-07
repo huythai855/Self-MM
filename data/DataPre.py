@@ -76,7 +76,7 @@ class MDataPreLoader(Dataset):
     def __getTextEmbedding(self, text):
         # directory is fine
         tokenizer = BertTokenizer.from_pretrained(self.pretrainedBertPath)
-        model = BertModel.from_pretrained(self.pretrainedBertPath)
+        model = BertModel.from_pretrained(self.pretrainedBertPath, ignore_mismatched_sizes=True)
         # add_special_tokens will add start and end token
         input_ids = torch.tensor([tokenizer.encode(text, add_special_tokens=True)])
         with torch.no_grad():
@@ -191,7 +191,7 @@ class MDataPre():
         return ret
     
     def run(self):
-        output_path = os.path.join(self.working_dir, 'Processed/features.pkl')
+        output_path = r'C:\Users\399pvd\Downloads\Dataset\Processed\features.pkl'
         # load last point
         if os.path.exists(output_path):
             with open(output_path, 'rb') as f:
@@ -265,7 +265,7 @@ def parse_args():
     parser.add_argument('--language', type=str, default="en",
                         help='en / cn')
     parser.add_argument('--openface2Path', type=str, default="/home/iyuge2/ToolKits/OpenFace/build/bin/FeatureExtraction",
-                        help='path to FeatureExtraction tool in openface2')
+                        help='C:/Users/399pvd/Downloads/OpenFace_2.2.0_win_x64/OpenFace_2.2.0_win_x64/FeatureExtraction.exe')
     return parser.parse_args()
 
 if __name__ == "__main__":

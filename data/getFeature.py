@@ -88,7 +88,7 @@ class getFeatures():
         # pretrained_weights = '/home/sharing/disk3/pretrained_embedding/Chinese/bert/pytorch'
         pretrained_weights = pretrainedBertPath
         tokenizer = tokenizer_class.from_pretrained(pretrained_weights)
-        model = model_class.from_pretrained(pretrained_weights)
+        model = model_class.from_pretrained(pretrained_weights, ignore_mismatched_sizes=True)
         # add_special_tokens will add start and end token
         input_ids = torch.tensor([tokenizer.encode(text, add_special_tokens=True)])
         with torch.no_grad():
@@ -220,7 +220,7 @@ def parse_args():
     parser.add_argument('--data_dir', type=str, default='/home/sharing/disk3/dataset/multimodal-sentiment-dataset/CH-SIMS',
                         help='path to CH-SIMS')
     parser.add_argument('--openface2Path', type=str, default="/home/iyuge2/ToolKits/OpenFace/build/bin/FeatureExtraction",
-                        help='path to FeatureExtraction tool in openface2')
+                        help='C:\Users\399pvd\Downloads\OpenFace_2.2.0_win_x64\OpenFace_2.2.0_win_x64/FeatureExtraction.exe')
     parser.add_argument('--pretrainedBertPath', type=str, default="/home/sharing/disk3/pretrained_embedding/bert/chinese_L-12_H-768_A-12",
                         help='path to pretrained bert directory')
     return parser.parse_args()
